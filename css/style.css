@@ -1,0 +1,126 @@
+.a_navbar {
+    width: 100%;
+    height: 70px;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.Lside {
+    width: 20%;
+    height: 70px;
+    float: left;
+}
+
+.Rside {
+    min-width: 150px;
+    height: inherit;
+    float: left;
+    margin-left: 143px;
+    border-bottom: 2px solid #253476;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Rside ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Rside ul li {
+    list-style-type: none;
+    float: left;
+    padding: 30px;
+}
+
+.Rside ul li a {
+    text-decoration: none;
+}
+
+.Rside ul li a:hover {
+    border-bottom: 2px solid #27AE60;
+    transition: 0.5s;
+}
+
+.text {
+    width: 250px;
+    height: inherit;
+    float: right;
+    background-color: #253476;
+}
+
+.text p {
+    color: #FFFFFF;
+    font-family: 'Zilla Slab';
+    font-size: 14px;
+    margin: 15px 0 0 10px;
+}
+
+.first {
+    width: 100%;
+    height: 325px;
+    float: left;
+    position: relative;
+}
+
+.second {
+    width: 50%;
+    height: 325px;
+    float: left;
+    position: absolute;
+}
+
+.third {
+    width: 50%;
+    height: 325px;
+    float: left;
+    position: absolute;
+    margin-left: 640px;
+}
+
+.text1 {
+    width: 650px;
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+}
+
+.text1 h3 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #3E3E3E;
+}
+
+.text2 {
+    width: 650px;
+    height: 60px;
+    float: left;
+    margin-top: 30px;
+    border-bottom: 3px solid grey;
+}
+
+.text2 p {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #27AE60;
+}
+
+.text3 {
+    width: 650px;
+    height: 50px;
+    float: left;
+    margin-top: 30px;
+}
+
+.text3 i {
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
